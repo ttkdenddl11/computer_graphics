@@ -1,0 +1,15 @@
+﻿  project06_2018136035.cpp
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(26,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(31,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(37,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(41,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(48,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(52,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(59,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(63,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(70,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(74,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(8,53): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(9,52): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(33,36): warning C4305: '인수': 'double'에서 'GLclampf'(으)로 잘립니다.
+  project06_2018136035.vcxproj -> C:\Users\user\source\repos\project06_2018136035\Debug\project06_2018136035.exe
