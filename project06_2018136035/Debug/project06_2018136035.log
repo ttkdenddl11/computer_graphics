@@ -9,28 +9,28 @@ C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(128,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(143,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(155,1): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(215,32): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(216,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(218,32): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(219,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(222,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(225,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(228,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(228,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(231,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(234,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(237,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(240,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(240,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(243,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(255,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(261,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(265,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(270,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(297,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(301,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(305,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(310,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(333,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(337,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(344,19): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(246,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(258,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(264,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(268,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(273,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(300,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(304,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(308,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(313,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(336,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(340,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(347,19): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(16,53): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(17,52): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(41,36): warning C4305: '인수': 'double'에서 'GLclampf'(으)로 잘립니다.

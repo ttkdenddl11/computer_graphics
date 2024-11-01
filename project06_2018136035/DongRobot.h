@@ -181,6 +181,7 @@ public:
         cos_t = COS(tAngle);
         sin_t2 = SIN(2 * tAngle);
     }
+    //»ß³¢»ß³¢ µ¿ÀÛ
     void sit() {
         bSit = true;
         tAngle += 20;
@@ -190,6 +191,7 @@ public:
         cos_t = COS(tAngle);
         sin_t2 = SIN(2 * tAngle);
     }
+    //»ß³¢»ß³¢ ¹Ý´ëµ¿ÀÛ
     void sit2() {
         bSit2 = true;
         tAngle += 20;
@@ -199,6 +201,7 @@ public:
         cos_t = COS(tAngle);
         sin_t2 = SIN(2 * tAngle);
     }
+    //»ß³¢»ß³¢ Á¤¸éµ¿ÀÛ
     void sit3() {
         bSit3 = true;
         tAngle += 20;
