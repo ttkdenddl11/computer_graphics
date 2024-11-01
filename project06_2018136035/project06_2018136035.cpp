@@ -1,7 +1,15 @@
 ﻿#include "DongRobot.h"
 
 static DongRobot dongrobot;
-static bool bIronmanRun = false;
+static bool bRobotRun = false;
+static bool bRobotSit = false;
+static bool bRobotSit2 = false;
+static bool bRobotSit3 = false;
+static double tSpeed = 60;
+static int lastToggleTime = 0;
+static int currentTime = 0;
+static int cnt = 0;
+static bool a = false, b = false;
 
 void initRendering() {
     // 조명 처리
@@ -33,9 +41,95 @@ void display() {
     glClearColor(0.8, 0.9, 0.8, 1.0);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+    glPushMatrix();
     dongrobot.draw();
+    glPopMatrix();
+
     glutSwapBuffers();
     glFlush();
+}
+
+void timerCallback(int tId) {
+   
+    if (bRobotRun && tId == 1) {
+        dongrobot.run();
+        glutTimerFunc((int)(tSpeed), timerCallback, 1);
+    }
+    if (bRobotSit && tId == 2) {
+        dongrobot.sit();
+        currentTime = glutGet(GLUT_ELAPSED_TIME); // 현재 경과 시간 가져오기
+
+        // 4초(4000ms)마다 상태 전환
+        if (currentTime - lastToggleTime >= 2200) {
+            cnt++;
+            dongrobot.stopSit();
+            lastToggleTime = currentTime; // 마지막 전환 시간을 현재 시간으로 갱신
+            bRobotSit = false;
+            bRobotSit2 = true;
+            if (cnt % 3 == 0) {
+                bRobotSit3 = true;
+                bRobotSit2 = false;
+                a = true;
+                tSpeed = 30;
+                glutTimerFunc((int)(tSpeed), timerCallback, 4);
+            }
+            glutTimerFunc((int)(tSpeed), timerCallback, 3);
+        }
+        glutTimerFunc((int)(tSpeed), timerCallback, 2);
+    }
+    if (bRobotSit2 && tId == 3) {
+        dongrobot.sit2();
+        currentTime = glutGet(GLUT_ELAPSED_TIME); // 현재 경과 시간 가져오기
+
+        // 4초(4000ms)마다 상태 전환
+        if (currentTime - lastToggleTime >= 2200) {
+            cnt++;
+            dongrobot.stopSit2();
+            lastToggleTime = currentTime; // 마지막 전환 시간을 현재 시간으로 갱신
+            bRobotSit2 = false;
+            bRobotSit = true;
+            if (cnt % 3 == 0) {
+                bRobotSit3 = true;
+                bRobotSit = false;
+                b = true;
+                tSpeed = 30;
+                glutTimerFunc((int)(tSpeed), timerCallback, 4);
+            }
+            glutTimerFunc((int)(tSpeed), timerCallback, 2);
+        }
+        glutTimerFunc((int)(tSpeed), timerCallback, 3);
+    }
+    if (bRobotSit3 && tId == 4) {
+        //cnt++;
+        dongrobot.sit3();
+        currentTime = glutGet(GLUT_ELAPSED_TIME); // 현재 경과 시간 가져오기
+
+        // 4초(4000ms)마다 상태 전환
+        if (currentTime - lastToggleTime >= 2200) {
+            if (a) {
+                dongrobot.stopSit3();
+                lastToggleTime = currentTime; // 마지막 전환 시간을 현재 시간으로 갱신
+                bRobotSit3 = false;
+                bRobotSit2 = true;
+                a = false;
+                tSpeed = 60;
+                glutTimerFunc((int)(tSpeed), timerCallback, 3);
+            }
+
+            else if (b) {
+                dongrobot.stopSit3();
+                lastToggleTime = currentTime; // 마지막 전환 시간을 현재 시간으로 갱신
+                bRobotSit3 = false;
+                bRobotSit = true;
+                b = false;
+                tSpeed = 60;
+
+                glutTimerFunc((int)(tSpeed), timerCallback, 2);
+            }
+        }
+        glutTimerFunc((int)(tSpeed), timerCallback, 4);
+    }
+    glutPostRedisplay();
 }
 
 static int PrevX, PrevY;
@@ -67,6 +161,18 @@ void keyboard(unsigned char key, int x, int y) {
     else if (key == 's') {
         glPolygonMode(GL_FRONT, GL_FILL);
         glPolygonMode(GL_BACK, GL_LINE);
+    }
+    else if (key == 'r') {
+        bRobotRun = !bRobotRun;
+        if (bRobotRun)
+            glutTimerFunc(40, timerCallback, 1);
+        else dongrobot.stopRun();
+    }
+    else if (key == 't') {
+        bRobotSit = !bRobotSit;
+        if (bRobotSit)
+            glutTimerFunc(40, timerCallback, 2);
+        else dongrobot.stopSit();
     }
     else if (key == 'q') {
         exit(0);
