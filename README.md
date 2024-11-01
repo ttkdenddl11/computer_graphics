@@ -8,3 +8,15 @@
 **모델출력**
 
 ![image](https://github.com/user-attachments/assets/256a948a-8ec9-4ae5-be92-c37a9bbf5222)
+
+**달리기 동작 출력**
+
+https://github.com/user-attachments/assets/d737cc84-e47e-4828-bbd2-9ca66a882e0e
+
+**삐끼삐끼 춤 동작 출력**
+
+https://github.com/user-attachments/assets/429b7d94-cf68-4ac1-b383-8e6474f94c9b
+
+https://github.com/user-attachments/assets/6d46700a-ad8f-48d8-a064-69dfdf3c2042
+
+
