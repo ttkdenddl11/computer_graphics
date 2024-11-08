@@ -10,6 +10,7 @@ static int lastToggleTime = 0;
 static int currentTime = 0;
 static int cnt = 0;
 static bool a = false, b = false;
+double near0 = 8.0;
 
 void initRendering() {
     // 조명 처리
@@ -38,10 +39,67 @@ void initRendering() {
 }
 
 void display() {
+    /*glClearColor(0.8, 0.9, 0.8, 1.0);
+    glClear(
+    GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+    glPushMatrix();
+    dongrobot.draw();
+    glPopMatrix();
+
+    glutSwapBuffers();
+    glFlush();*/
+
     glClearColor(0.8, 0.9, 0.8, 1.0);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+
+    // 정면도 뷰포트 (왼쪽 아래)
+    glViewport(0, 0, 300, 300);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    glOrtho(-1, 1, -1, 1, -10, 10); // 정사투영 설정
+    glMatrixMode(GL_MODELVIEW);
     glPushMatrix();
+    glScalef(1, 1, -1);
+    dongrobot.draw();
+    glPopMatrix();
+
+    // 측면도 뷰포트 (오른쪽 아래)
+    glViewport(300, 0, 300, 300);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    glOrtho(-1, 1, -1, 1, -10, 10); // 정사투영 설정
+    glMatrixMode(GL_MODELVIEW);
+    glPushMatrix();
+    glRotatef(90, 0, 1, 0);
+    glScalef(1, 1, -1);
+    dongrobot.draw();
+    glPopMatrix();
+
+    //// 평면도 뷰포트 (왼쪽 위)
+    glViewport(0, 300, 300, 300);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    glOrtho(-1, 1, -1, 1, -10, 10); // 정사투영 설정
+    glMatrixMode(GL_MODELVIEW);
+    glPushMatrix();
+    glRotatef(90, 1, 0, 0);
+    glScalef(1, 1, -1);
+    dongrobot.draw();
+    glPopMatrix();
+
+    //// 원근 투상 뷰포트 (오른쪽 위)
+    glViewport(300, 300, 300, 300);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    glFrustum(-1, 1, -1, 1, near0, 20);
+    glMatrixMode(GL_MODELVIEW);
+    glPushMatrix();
+    glTranslatef(0, 0, -10);
+    glRotatef(30, 1, 0, 0);
+    glRotatef(45, 0, 1, 0);
+    glScalef(1, 1, -1);
     dongrobot.draw();
     glPopMatrix();
 
@@ -176,6 +234,12 @@ void keyboard(unsigned char key, int x, int y) {
     }
     else if (key == 'q') {
         exit(0);
+    }
+    else if (key == 'n') {
+        near0 += 0.1;
+    }
+    else if (key == 'm') {
+        near0 -= 0.1;
     }
     glutPostRedisplay();
 }

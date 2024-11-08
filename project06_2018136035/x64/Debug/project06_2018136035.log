@@ -34,4 +34,4 @@ C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(16,53): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(17,52): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(41,36): warning C4305: '인수': 'double'에서 'GLclampf'(으)로 잘립니다.
-LINK : fatal error LNK1104: 'C:\Users\user\source\repos\project06_2018136035\x64\Debug\project06_2018136035.exe' 파일을 열 수 없습니다.
+  project06_2018136035.vcxproj -> C:\Users\user\source\repos\project06_2018136035\x64\Debug\project06_2018136035.exe

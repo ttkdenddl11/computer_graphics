@@ -31,7 +31,7 @@ C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(336,26): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(340,25): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\user\source\repos\project06_2018136035\project06_2018136035\DongRobot.h(347,19): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(16,53): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(17,52): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
-C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(41,36): warning C4305: '인수': 'double'에서 'GLclampf'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(17,53): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(18,52): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\user\source\repos\project06_2018136035\project06_2018136035\project06_2018136035.cpp(53,36): warning C4305: '인수': 'double'에서 'GLclampf'(으)로 잘립니다.
   project06_2018136035.vcxproj -> C:\Users\user\source\repos\project06_2018136035\Debug\project06_2018136035.exe
